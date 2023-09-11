@@ -9,14 +9,15 @@ console.log(str1>str2)//เปรียบเทียมจาก ASCII BINARY 
 console.log(str1.includes('App')) //str1 ไม่ App เป็น app เลยไม่ include
 console.log(str2.includes('App'))
 
-//charAt
-//concat
-//endswith
+//charAt() = เอาตัวอักษรตาม index ที่ระบุ
+//concat() = เชื่อม
+//endsWith() = หาตัวลงท้ายเหมือนกัน
+//indexOf = อักษรที่ต้องการหารอยู่ตำแหน่ง Index เท่าไหร่ของ String นั้น
+//startWith() = หาตัวขึ้นต้นเหมือนกัน
+//SubString() = ตัดบางส่วนของ String ออกมาตาม index ที่ระบุ
+//trim() = ตัดspaceหน้าหลัง
+
 //include
-//indexOf = ตำแหน่งตัวที่ต้องการหา
-//startWith
-//SubString
-//trim ตัดspaceหน้าหลัง
 //toLower/toUpper //use for includes with insensitive
 console.log(str1.toLowerCase().includes('App'.toLowerCase()))
 console.log(str1.toUpperCase().includes('APP'.toUpperCase()))
