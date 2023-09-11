@@ -1,6 +1,7 @@
 //5. create array with Array.from()
+//copy ค่าใดค่านึงมา
 const x = [1,2,4,6,8,16,32]
-const y = Array.from(x)
+const y = Array.from(x) //...x
 console.log(x)
 console.log(y)
 console.log(y.length)
