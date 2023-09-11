@@ -6,14 +6,14 @@ function concat(str1, str2) {
   console.log(concat('hello', 'world')) //helloworld
   
 
-//2. function expression
+//2. function expression นิพจน์เป็นฟังก์ชัน
   const toLower = function (str) {
     return str.toLowerCase()
   }
 //calling function, execute function
   console.log(toLower('HELLOWORLD'))
   
-  const doSomething = toLower
+  const doSomething = toLower //เอาชื่อฟังก์ชั้นtolower ให้ doSomething
   console.log(doSomething('HI')) //'hi'
   console.log(typeof doSomething) //function
   const y = toLower('Hey') //'hey'
@@ -27,7 +27,7 @@ function concat(str1, str2) {
   }
   
   console.log(doIt(concat, 'good', 'morning')) //goodmorning
-  console.log(doIt(toLower, 'GOOD', 'MORNING')) //good
+  console.log(doIt(toLower, 'GOOD', 'MORNING')) //good // ใน tolower เทียบกันคือส่งพารามิเตอร์เกิน ก็ทิ้งไปเลยไม่สนใจ
   
   function a() {
     return toLower
