@@ -34,3 +34,22 @@ function concat(str1, str2) {
   }
   const m = a()
   console.log(m('ABC'))
+
+  //primitive parameter passing
+  function double(a){
+    a=a * 2
+    return a
+  }
+  let u = 5
+
+  console.log(double(u))//10
+  console.log(u) //5
+
+  //object parameter Passing
+  function update(a){
+    //a=n, a=memory address if n becase a ACCEPT ARRAY OBJECT
+    a[0] = 555
+  }
+  const n = [1,2,3]
+  console.log(update(n))
+  console.log(n) //[555,2,3]
