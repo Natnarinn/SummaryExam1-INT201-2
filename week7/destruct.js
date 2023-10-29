@@ -1,6 +1,7 @@
+//destructuring การแยกโครงสร้าง ดึงค่าpropertiesออกมาใช้ ให้เป็นอิสระจาก object | {} or [] จะอยู่ฝั่งซ้ายของ =
 const mail = {
   sender: "SIT,KMUTT",
-  recipent: "Warisa Thia",
+  recipent: "Warisa Thiamthong",
   title: "Welcome to KMUTT",
   sentDate: new Date(Date.now())
 }
