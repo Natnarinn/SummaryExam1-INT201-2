@@ -6,6 +6,7 @@ Array to String: การแปลง array เป็น String
 
 charAt(0) = เอาตัวอักษรที่ index = 0
 
+----------------Array Iterator Mathods------------------------
 --> 1. 
 forEach(): ไว้วนลูปทุก elements ใน array เพื่อเอาค่าอะไรบางอย่าง
             forEach(callbackFn)

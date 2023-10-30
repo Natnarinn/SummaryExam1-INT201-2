@@ -1,10 +1,11 @@
+//การใช้ reduce
 const fruits = ["apple", "mango", "orange", "pineapple"]
 //concat first character
 // fruits.reduce(firstChars, fruit) => firstChars.concat(fruits).concat(fruits.CharAt(0))
 
 //ผลคูณ
-const nums = [1, 2, 3, 4, 5]
-const mulResult = nums.reduce((mul, num) => mul * num)
+const nums = [1, 2, 3, 4, 5] //1*2*3*4*5
+const mulResult = nums.reduce((mul, num) => mul * num) //mulคือค่าสุดท้ายที่ return
 console.log(mulResult)
 
 //ผลรวม

@@ -1,3 +1,4 @@
+//การใช้ includes
 const animals = ['ant', 'dogs', 'cats', 'bird'] //ats false, cats true
 const message = 'Practices make perfect' //ake true
 //string includes - includes substring (case sensitive)

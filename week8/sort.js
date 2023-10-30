@@ -1,3 +1,5 @@
+//การใช้ sort เรียงตาม ASCII code
+
 const animals2 = ['ant', 'dogs', 'cats', 'Bird', 'Birds']
 animals2.sort()
 console.log(animals2) // [ 'Bird', 'Birds', 'ant', 'cats', 'dogs' ]
@@ -11,6 +13,7 @@ console.log(nums1) // เรียงตาม asscii
 //    50
 //  ]
 
+//โจทย์ที่ให้ทำเรียงตามตัวเลข
 nums1.sort((a,b) => a-b) 
 console.log(nums1)
 // [
