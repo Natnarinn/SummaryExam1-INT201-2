@@ -1,0 +1,22 @@
+--> 4.
+concat(): รวม element
+            concat()
+            concat(value1)
+            concat(value1, value2)
+            concat(value1, value2, /* …, */ valueN)
+
+
+--> 5.
+indexOf():
+            indexOf(searchElement)
+            indexOf(searchElement, fromIndex)
+
+--> 6.
+join(): 
+            join()
+            join(separator)
+
+
+
+/////indexOf(): ใช้ตอน
+/////findIndex(): อธิบายเงื่อนไขผ่าน callbackFn

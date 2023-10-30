@@ -70,14 +70,22 @@ fill(): การเปลี่ยนค่า element ในตำแหน่
             fill(value, start)
             fill(value, start, end) //start include, end exclude
 
---> 4.
+
+--------------Searching and Sorting Methods----------------
+--> 1.
 reverse(): ทำกับ original array จับท้ายมาหัว จับหัวมาท้าย
             //ทำกับoriginal array
 
---> 5.
+--> 2.
 sort(): เรียงลำดับ
             sort()
             sort(compareFn)
+
+--> 3.
+includes(): 
+            includes(searchElement)
+            includes(searchElement, fromIndex)
+
 
 
 
