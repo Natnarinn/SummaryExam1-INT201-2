@@ -1,0 +1,3 @@
+mutable = object เป็น mutable กล่าวคือจะให้ references address ถ้าเปลี่ยนค่าตัวที่ copy ก็จะเห็นการเปลี่ยนแปลงเหมือนกัน
+Passing to function = เวลาส่งไปก็จะส่ง references address ให้ function เอาไปเป็น parameters ตัวที่เป็นตัวแปรชั่วคราวจะอ้างถึงไม่ได้ เมื่อจบการทำงาน เพราะยืม references address มาเพื่อใส่ใน parameters เฉยๆ
+JSON(javaScript object Notation) = เอาไว้ check emptyObject

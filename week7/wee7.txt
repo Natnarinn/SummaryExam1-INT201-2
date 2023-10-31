@@ -1,0 +1,31 @@
+Array Iterator Mathods: visit ทุก element ใน Array ให้
+Stack and Queue: โครงสร้างข้อมูล เข้าก่อนออกก่อน,เข้าก่อนออกทีหลัง
+Subarray Methods: การตัด Array,การ repeat ค่าในArray
+Searching and Sorting Methods: การSearch กับการเรียงลำดับ ค่าใน Array
+Array to String: การแปลง array เป็น String
+
+charAt(0) = เอาตัวอักษรที่ index = 0
+
+----------------Array Iterator Mathods------------------------
+--> 1. 
+forEach(): ไว้วนลูปทุก elements ใน array เพื่อเอาค่าอะไรบางอย่าง
+            forEach(callbackFn)
+            forEach(callbackFn, thisArg)
+            ///ไม่ return อะไรออกมาเลย
+
+--> 2. 
+filter():  สร้าง array ใหม่ เพื่อใส่ข้อมูลที่ผ่านเงื่อนไขใน callbackFn(return true/false) || กรอง elements ให้ผ่านเงื่อนไข
+            filter(callbackFn) 
+            filter(callbackFn, thisArg)
+            ///ใน callbackFn ต้อง return true/false เท่านั้น
+            ///return array ใหม่ ที่มีตามเงื่อนไข
+            //เอาทุกคอลัม แต่เอาบาง records
+
+--> 3. 
+map(): สร้าง array ใหม่ โดยไปกระทำกับทุก elements
+            map(callbackFn)
+            map(callbackFn, thisArg)
+            ///return array ใหม่ เป็นค่าใหม่ที่กระทำกับ ทุก array แล้ว 
+            //เอาทุกrecords แต่เอาบาง คอลัม
+
+

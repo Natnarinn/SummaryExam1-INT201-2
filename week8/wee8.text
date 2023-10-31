@@ -1,0 +1,98 @@
+--> 4. 
+find(): ค้นหา element แรก ที่ตรงเงื่อนไข (return value)
+            find(callbackFn)
+            find(callbackFn, thisArg)
+
+
+--> 5.
+findIndex(): ค้นหา element แรก ที่ตรงเงื่อนไข (return index)
+            findIndex(callbackFn)
+            findIndex(callbackFn, thisArg)
+
+--> 6.
+every(): check ทุก element ต้องเขียนเงื่อนไขว่าให้เช็คยังไง ต้องถูกทุกตัว ถึงจะ return true เลย
+            every(callbackFn)
+            every(callbackFn, thisArg)
+
+--> 7.
+some(): check ทุก element ต้องเขียนเงื่อนไขว่าให้เช็คยังไง ถูก1ตัว return true เลย
+            some(callbackFn)
+            some(callbackFn, thisArg)
+
+--> 8.
+reduce(): การยุบค่าลงจนเหลือหนึ่งค่า || callbackFn ต้องอธิบายให้ได้ว่ายุบค่าของ element ยังไง
+            reduce(callbackFn)
+            reduce(callbackFn, initialValue) //intitial value ถ้าไม่กำหนดจะเริ่มที่ตัวแรกของ elements
+
+            const reducer = (total, currentValue) => total + currentValue
+   
+
+
+----------------Stack and Queue---------------------
+--> 1.
+push(): เพิ่ม element เข้าไปใน array(ตัวท้าย) (return เลขlengthใหม่ของarray หลังจากเพิ่มค่า)
+            push()
+            push(element1)
+            push(element1, element2)
+            push(element1, element2, /* …, */ elementN)
+
+--> 2.
+pop(): ลบ element ตัวท้ายของ array (return เลขlengthใหม่ของarray หลังจากเพิ่มค่า)
+            pop() //ลบได้แค่ element สุดท้าย
+
+--> 3. 
+shif(): เพิ่ม element เข้าไปใน array(ตัวเริ่มต้น) (return เลขlengthใหม่ของarray หลังจากเพิ่มค่า)
+
+--> 4.
+unshif(): ลบ element ตัวแรกของ array (return เลขlengthใหม่ของarray หลังจากเพิ่มค่า)
+
+
+----------------Subarray Methods------------------------
+--> 1.
+splice(): เปลี่ยนแปลง content ใช้ตอน remove or replacing or add
+            splice(start)
+            splice(start, deleteCount)
+            splice(start, deleteCount, item1)
+            splice(start, deleteCount, item1, item2)
+            splice(start, deleteCount, item1, item2, /* …, */ itemN)
+            ///deleteCount is 0 or nagative ไม่มี element ที่ต้อง remove
+            ///return Array ที่ delete ไป
+
+--> 2.
+slice(): การหั่น หรือตัดออก
+            slice() //เหมือนเดิม
+            slice(start) //ตัดทั้งหมดตั้งแต่ start
+            slice(start, end) //ตัดตั้งแต่ start ถึง end แต่ไม่รวม end (ถ้าค่าเป็นลบ คือตัดจากท้าย -3 -2 -1)
+
+--> 3.
+fill(): การเปลี่ยนค่า element ในตำแหน่งที่ระบุ
+            fill(value)
+            fill(value, start)
+            fill(value, start, end) //start include, end exclude
+
+
+--------------Searching and Sorting Methods----------------
+--> 1.
+reverse(): ทำกับ original array จับท้ายมาหัว จับหัวมาท้าย
+            //ทำกับoriginal array
+
+--> 2.
+sort(): เรียงลำดับ ตาม ASCII CODE
+            sort()
+            sort(compareFn)
+
+--> 3.
+includes(): check ว่าในนั้นมีไหม จะreturn true/false  
+            includes(searchElement)
+            includes(searchElement, fromIndex)
+
+
+
+
+
+
+
+
+
+
+
