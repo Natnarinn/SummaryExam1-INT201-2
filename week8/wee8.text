@@ -77,12 +77,12 @@ reverse(): ทำกับ original array จับท้ายมาหัว �
             //ทำกับoriginal array
 
 --> 2.
-sort(): เรียงลำดับ
+sort(): เรียงลำดับ ตาม ASCII CODE
             sort()
             sort(compareFn)
 
 --> 3.
-includes(): 
+includes(): check ว่าในนั้นมีไหม จะreturn true/false  
             includes(searchElement)
             includes(searchElement, fromIndex)
 

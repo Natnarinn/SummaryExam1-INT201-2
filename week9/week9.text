@@ -1,10 +1,9 @@
 --> 4.
-concat(): รวม element
+concat(): รวม element ถ้าซ้ำก็ซ้ำเลย
             concat()
             concat(value1)
             concat(value1, value2)
             concat(value1, value2, /* …, */ valueN)
-
 
 --> 5.
 indexOf():
@@ -17,6 +16,39 @@ join():
             join(separator)
 
 
-
 /////indexOf(): ใช้ตอน
 /////findIndex(): อธิบายเงื่อนไขผ่าน callbackFn
+
+
+-----------------Working Function-------------------------
+JS Function เป็น first-class citizens
+-add ค่า function ใส่ตัวแปร EX: let sum = add //addคือ function
+-ส่งชื่อ function ๆปเป็น parameter
+-return ฟังก์ชัน ออกจาก function อื่นๆได้
+
+-------->>> Pass Function to other function <<<------------
+1.Arrow function:เขียนแบบ arrow ไม่มีชื่อ ใช้ในตำแหน่งนั้นเลย ใช้ครั้งเดียว
+2.Callback function: function declalation มีการตั้งชื่อ ใช้ซ้ำได้
+3.Inline callback function: เขียนแบบ declalation ไม่มีชื่อ ใช้ในตำแหน่งนั้นเลย ใช้ครั้งเดียว
+
+------->>> Concept Function <<<-----------
+1.การเขียน function เป็น block of code ถ้ากำหหหนดชื่อแล้วเรียกได้หลายๆครั้งๆ
+2.สามารถรับข้อมูลผ่าน parameter ได้ || parameter = function scope || local variable = จำกัดใช้ภายใน scope
+3.function คือ object
+4.function สามารถ nested ได้
+
+------->>> Function Types <<<-------------
+1.annonymas
+2.name
+3.inner(nasted)
+
+------->>> Function scope <<<-------------
+1.variable ใน function ข้างนอกเข้าถึงไม่ได้ ทั้ง local variable, parameter
+2.function สามารถอ้างถึง global function ได้
+***3.nasted function สามารถเข้าถึงของตัวเองได้,เข้าถึงของ parent ได้,parent เข้าถึงอะไร ตัวในสุดก็เข้าถึงได้
+***4.นอก Function ไม่สามารถเข้าถึง nested ได้ ต้องให้ function ตัวนอก return อะไรออกมา
+
+------>>> Clouser <<<---------
+1.เป็นการปิดสภาพแวดล้อมที่เกี่ยวข้องทั้งหมด เพื่อรักษาค่านั้นให้คงอยู่ (ค่าทุกอย่างจะไม่หายไป)
+    -Clouser ต้องมีสถานะเป็น nested function |เข้าถึงตัวแปรนอกในได้ |ข้างนอกเข้าถึงไม่ได้
+    -ตัวข้างนอกเข้าถึงได้ คือ ต้องมีการ return จาก function ข้างนอก
