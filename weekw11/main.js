@@ -59,3 +59,11 @@ console.log(headNextSibling)
 //get next sibling only element node type
 const headNextSiblingElement = headElement.nextElementSibling
 console.log(headNextSiblingElement)
+
+//get first child
+console.log(headElement.firstChild)
+console.log(headElement.firstElementChild)
+
+//get last child
+console.log(headElement.lastChild)
+console.log(headElement.lastElementChild)
