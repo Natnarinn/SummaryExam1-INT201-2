@@ -1,0 +1,10 @@
+------ Module -------
+มีการเรียกใช้ Module สองแบบ 
+1.CommonJS (ใช้ตอน run บน node JS) 
+    //ในไฟล์แรก
+     module.export = {echo,sum}
+    //ไฟล์ที่จะเรียกมาใช้งาน
+     const { echo,sum } = require('./libs/utill.js')
+     console.log(echo('Practice makes perfect'))
+
+2.ES module (ใช้ตอน run บน browser)
