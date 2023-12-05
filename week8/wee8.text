@@ -59,7 +59,7 @@ splice(): เปลี่ยนแปลง content ใช้ตอน remove or
             ///return Array ที่ delete ไป
 
 --> 2.
-slice(): การหั่น หรือตัดออก
+slice(): การหั่น หรือตัดออก return index ที่ต้องการค้นหา
             slice() //เหมือนเดิม
             slice(start) //ตัดทั้งหมดตั้งแต่ start
             slice(start, end) //ตัดตั้งแต่ start ถึง end แต่ไม่รวม end (ถ้าค่าเป็นลบ คือตัดจากท้าย -3 -2 -1)
@@ -72,6 +72,8 @@ fill(): การเปลี่ยนค่า element ในตำแหน่
 
 
 --------------Searching and Sorting Methods----------------
+-->
+join
 --> 1.
 reverse(): ทำกับ original array จับท้ายมาหัว จับหัวมาท้าย
             //ทำกับoriginal array
