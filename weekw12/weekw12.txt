@@ -1,0 +1,9 @@
+getElementByName() = NodeList >> ใช้ ForEach ได้ Array Function ไม่ได้
+querySelector() = NodeList >> ใช้ ForEach ได้ Array Function ไม่ได้
+querySelectorAll() = NodeList >> ใช้ ForEach ได้ Array Function ไม่ได้
+
+getElementByTagName() = Collection >> ใช้ ForEach ไม่ได้ ต้องทำให้ดป็น Array ก่อน
+getElementByClassName() = Collection >> ใช้ ForEach ไม่ได้ ต้องทำให้ดป็น Array ก่อน
+
+children = ลูกที่เป็น ELEMENT_NODE >> Collection
+childNodes = ลูกที่เป็นทุก NodeTypes >> NodeList
